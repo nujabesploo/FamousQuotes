@@ -1,117 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <title>Famous Quotes Generator</title>
-   <style>
-       body {
-           font-family: Arial, sans-serif;
-           max-width: 800px;
-           margin: 0 auto;
-           padding: 20px;
-           line-height: 1.6;
-       }
-       .container {
-           background-color: #f5f5f5;
-           padding: 20px;
-           border-radius: 8px;
-       }
-       .code-block {
-           background-color: #f0f0f0;
-           padding: 15px;
-           border-radius: 5px;
-           overflow-x: auto;
-       }
-       .emoji {
-           font-size: 1.5em;
-       }
-   </style>
-</head>
-<body>
-   <div class="container">
-       <h1><span class="emoji">📜</span> Famous Quotes Generator</h1>
-       
-       <p>A simple Java application that serves up inspiration like a fortune cookie! This program randomly displays motivational quotes based on user input.</p>
+# 🎯 FamousQuotes - Your Daily Dose of Inspiration
 
-       <div class="image-placeholder">
-           [Program Screenshot Placeholder]
-       </div>
+## 🌟 What's This All About?
+Think of FamousQuotes as your personal fortune cookie dispenser, but instead of cryptic predictions, it serves up bite-sized wisdom that packs a punch! This Java program is like a magic 8-ball of motivation, ready to brighten your day with inspiring quotes at the touch of a button.
 
-       <h2><span class="emoji">🎯</span> What Does It Do?</h2>
-       <p>Think of this program as a digital fortune cookie machine. Instead of cracking open a cookie, you pick a number, and out pops a piece of wisdom!</p>
+![Demo](assets/images/demo.gif)
 
-       <h2><span class="emoji">🛠️</span> How It Works</h2>
-       <ol>
-           <li>Enter a number (1-10)</li>
-           <li>Get your quote</li>
-           <li>Choose whether to get another one</li>
-       </ol>
+## 🚀 Features
+- 10 power-packed quotes to fuel your motivation
+- Interactive number-based quote selection
+- Error-proof design (because we all fat-finger keyboards sometimes!)
+- Continuous play option (because one quote is never enough!)
 
-       <h2><span class="emoji">📝</span> Code Breakdown</h2>
-       <h3>The Ingredients (Components)</h3>
-       <div class="code-block">
-           <pre>
-import java.util.Scanner;  // Our tool to read user input
-String[] conciseQuotes    // Our box of fortune cookies
-Scanner in                // Our order-taker
-           </pre>
-       </div>
+## 🎮 How to Run
 
-       <h2><span class="emoji">🔄</span> The Process</h2>
-       <div class="image-placeholder">
-           [Flowchart Image Placeholder]
-       </div>
-       <ul>
-           <li><strong>The Menu (Quote Array)</strong>
-               <ul>
-                   <li>10 short, inspiring quotes</li>
-                   <li>Each one ready to be served</li>
-               </ul>
-           </li>
-           <li><strong>The Order Loop (while loop)</strong>
-               <ul>
-                   <li>Keeps serving quotes until you're satisfied</li>
-                   <li>Like a restaurant that stays open until you say you're done</li>
-               </ul>
-           </li>
-       </ul>
+# Clone this inspirational powerhouse
+git clone https://github.com/yourusername/FamousQuotes.git
 
-       <h2><span class="emoji">🎮</span> How to Use</h2>
-       <div class="image-placeholder">
-           [Usage Screenshots Placeholder]
-       </div>
-       <ol>
-           <li>Run the program</li>
-           <li>Enter a number 1-10</li>
-           <li>Read your quote</li>
-           <li>Type 'yes' to continue or 'no' to exit</li>
-       </ol>
+# Navigate to the project directory
+cd FamousQuotes
 
-       <h2><span class="emoji">⚠️</span> Error Messages</h2>
-       <ul>
-           <li><strong>Error 101</strong>: Oops! Something went wrong (like ordering item #11 from a 10-item menu)</li>
-       </ul>
+# Compile the Java file
+javac com/pluralsight/FamousQuotes.java
 
-       <h2><span class="emoji">🔧</span> Future Improvements</h2>
-       <ul>
-           <li>Add more quotes</li>
-           <li>Add categories</li>
-           <li>Include author names</li>
-           <li>Add colorful formatting</li>
-       </ul>
+# Run and get inspired!
+java com.pluralsight.FamousQuotes
 
-       <h2><span class="emoji">📸</span> Screenshots</h2>
-       <div class="image-placeholder">
-           [Screenshots Coming Soon]
-       </div>
+## 📸 Screenshots
+### The Magic in Action
+![Program Interface](assets/images/interface.png)
 
-       <h2><span class="emoji">🤝</span> Contributing</h2>
-       <p>Feel free to add your favorite quotes to the collection!</p>
+### When Things Go Wrong (But It's OK!)
+![Error Handling](assets/images/error.png)
 
-       <hr>
-       <footer>
-           <p>Made with <span class="emoji">☕</span> and Java</p>
-       </footer>
-   </div>
-</body>
-</html>
+## 🛠️ Technical Bits
+- Language: Java
+- Input: Scanner class for user interaction
+- Error Handling: Try-catch blocks
+- Data Structure: String array
+
+## 🎨 Quote Collection
+Our quotes are like different flavors of ice cream - there's something for everyone!
+- For the go-getters: "Carpe diem"
+- For the worry-warts: "Hakuna matata"
+- For the adventure seekers: "YOLO"
+...and many more!
+
+## 🐛 Error Codes
+- Error 101: Oops! Something went wrong with your input. No worries, just try again!
+
+
