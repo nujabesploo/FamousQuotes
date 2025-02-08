@@ -27,15 +27,14 @@ The **Famous Quotes Generator** is a simple Java-based console application that 
 Below are some example screenshots of the program in action:  
 
 ### ✅ Successful Quote Display  
-![Quote Display](path/to/quote_display_screenshot.png)  
+
+<img src="https://github.com/user-attachments/assets/0113b4de-2aa0-47c5-8894-78aed37021c6" width="670" alt="Screenshot 2025-02-08 at 5 16 46 PM">
 
 ### ⚠️ Error Handling (Invalid Input)  
-![Error Message](path/to/error_message_screenshot.png)  
+<img src="https://github.com/user-attachments/assets/1f9c9d49-6cf7-4367-a2f6-0f881bd9cb44" width="670" alt="Screenshot 2025-02-08 at 5 17 25 PM">
 
 ### 🔄 Looping Mechanism  
-![Looping Prompt](path/to/looping_prompt_screenshot.png)  
-
-*(Replace the paths with actual screenshot locations when available.)*  
+<img src="https://github.com/user-attachments/assets/4ef2d7b3-9998-4673-ae48-9a980a0fd027" width="670" alt="Screenshot 2025-02-08 at 5 18 33 PM">
 
 ---
 
