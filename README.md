@@ -55,7 +55,7 @@ Below are some example screenshots of the program in action:
 ---
 
 ## 🏆 Credits  
-Developed by **[Your Name]** 🚀  
+Developed by **Bolutife Alli** 🚀  
 Powered by **Java** ☕  
 
 ---
